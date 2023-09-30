@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa"
 const Footer = () => {
   return (
-    <div className='max-w-[1249px] mx-auto py-16 px-5 grid lg:grid-cols-3 gap-8 text-white'>
+    <div id="contact" className='max-w-[1249px] mx-auto py-16 px-5 grid lg:grid-cols-3 gap-8 text-white'>
         <div>
 
         

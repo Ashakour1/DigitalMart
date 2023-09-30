@@ -12,10 +12,11 @@ const Header = () => {
     <div className='flex justify-between items-center h-15 max-w-[1110px]  text-white  mx-auto  px-4 md:px-0'>
         <h1 className="w-full text-3xl font-bold text-[#ffffff] ">Digital<span className='text-blue-700'>Mart.</span></h1>
         <ul className="hidden md:flex ">
-          <li className="p-4">Home</li>
-          <li className="p-4">Contact</li>
-          <li className="p-4">About</li>
-          <li className="p-4">Programs</li>
+          <li className="p-4"><a href="#home">Home</a></li>
+          <li className="p-4"><a href="#Newslatter">Newslatter</a></li>
+          <li className="p-4"><a href="#prices">prices</a></li>
+          <li className="p-4"><a href="#contact">contact</a></li>
+          <li className="p-4"><a href="#analystic">Analystic</a></li>
         </ul>
         
         <div onClick={handle} className="block md:hidden ">
